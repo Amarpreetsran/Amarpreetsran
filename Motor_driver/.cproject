@@ -20,7 +20,10 @@
 						<toolChain id="com.crt.advproject.toolchain.exe.debug.774607987" name="NXP MCU Tools" superClass="com.crt.advproject.toolchain.exe.debug">
 							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF" id="com.crt.advproject.platform.exe.debug.1790193070" name="ARM-based MCU (Debug)" superClass="com.crt.advproject.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Motor_driver}/Debug" id="com.crt.advproject.builder.exe.debug.444182488" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.crt.advproject.builder.exe.debug"/>
-							<tool id="com.crt.advproject.cpp.exe.debug.1311217496" name="MCU C++ Compiler" superClass="com.crt.advproject.cpp.exe.debug"/>
+							<tool id="com.crt.advproject.cpp.exe.debug.1311217496" name="MCU C++ Compiler" superClass="com.crt.advproject.cpp.exe.debug">
+								<option id="com.crt.advproject.cpp.hdrlib.1482830256" superClass="com.crt.advproject.cpp.hdrlib"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1607444857" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+							</tool>
 							<tool id="com.crt.advproject.gcc.exe.debug.253741992" name="MCU C Compiler" superClass="com.crt.advproject.gcc.exe.debug">
 								<option id="com.crt.advproject.gcc.thumb.372298452" name="Thumb mode" superClass="com.crt.advproject.gcc.thumb" value="true" valueType="boolean"/>
 								<option id="com.crt.advproject.gcc.arch.1407848019" name="Architecture" superClass="com.crt.advproject.gcc.arch" value="com.crt.advproject.gcc.target.cm4" valueType="enumerated"/>
@@ -50,7 +53,7 @@
 							<tool id="com.crt.advproject.gas.exe.debug.798890513" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.debug">
 								<option id="com.crt.advproject.gas.thumb.525893102" name="Thumb mode" superClass="com.crt.advproject.gas.thumb" value="true" valueType="boolean"/>
 								<option id="com.crt.advproject.gas.arch.520264409" name="Architecture" superClass="com.crt.advproject.gas.arch" value="com.crt.advproject.gas.target.cm4" valueType="enumerated"/>
-								<option id="gnu.both.asm.option.flags.crt.1798544307" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" value="-c -x assembler-with-cpp -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_MASTER -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE" valueType="string"/>
+								<option id="gnu.both.asm.option.flags.crt.1798544307" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" value="-c -x assembler-with-cpp -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_MASTER -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE" valueType="string"/>
 								<option id="com.crt.advproject.gas.hdrlib.1002735506" superClass="com.crt.advproject.gas.hdrlib" value="Redlib" valueType="enumerated"/>
 								<option id="com.crt.advproject.gas.specs.2076447924" superClass="com.crt.advproject.gas.specs" value="com.crt.advproject.gas.specs.codered" valueType="enumerated"/>
 								<option id="gnu.both.asm.option.include.paths.933706844" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
@@ -61,7 +64,9 @@
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1245029268" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 								<inputType id="com.crt.advproject.assembler.input.2024084493" name="Additional Assembly Source Files" superClass="com.crt.advproject.assembler.input"/>
 							</tool>
-							<tool id="com.crt.advproject.link.cpp.exe.debug.1930557446" name="MCU C++ Linker" superClass="com.crt.advproject.link.cpp.exe.debug"/>
+							<tool id="com.crt.advproject.link.cpp.exe.debug.1930557446" name="MCU C++ Linker" superClass="com.crt.advproject.link.cpp.exe.debug">
+								<option id="com.crt.advproject.link.cpp.hdrlib.1799494856" superClass="com.crt.advproject.link.cpp.hdrlib"/>
+							</tool>
 							<tool id="com.crt.advproject.link.exe.debug.488517289" name="MCU Linker" superClass="com.crt.advproject.link.exe.debug">
 								<option id="com.crt.advproject.link.thumb.1366896248" name="Thumb mode" superClass="com.crt.advproject.link.thumb" value="true" valueType="boolean"/>
 								<option id="com.crt.advproject.link.memory.load.image.1367647357" name="Plain load image" superClass="com.crt.advproject.link.memory.load.image" value="" valueType="string"/>
@@ -159,7 +164,7 @@
 							<tool id="com.crt.advproject.gas.exe.release.1418593648" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.release">
 								<option id="com.crt.advproject.gas.thumb.341925397" name="Thumb mode" superClass="com.crt.advproject.gas.thumb" value="true" valueType="boolean"/>
 								<option id="com.crt.advproject.gas.arch.263853922" name="Architecture" superClass="com.crt.advproject.gas.arch" value="com.crt.advproject.gas.target.cm4" valueType="enumerated"/>
-								<option id="gnu.both.asm.option.flags.crt.408371774" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" value="-c -x assembler-with-cpp -DNDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_MASTER -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE" valueType="string"/>
+								<option id="gnu.both.asm.option.flags.crt.408371774" name="Assembler flags" superClass="gnu.both.asm.option.flags.crt" value="-c -x assembler-with-cpp -DNDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_MASTER -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE -D__MULTICORE_MASTER_SLAVE_M0SLAVE" valueType="string"/>
 								<option id="com.crt.advproject.gas.hdrlib.1525268982" superClass="com.crt.advproject.gas.hdrlib" value="Redlib" valueType="enumerated"/>
 								<option id="com.crt.advproject.gas.specs.469165743" superClass="com.crt.advproject.gas.specs" value="com.crt.advproject.gas.specs.codered" valueType="enumerated"/>
 								<option id="gnu.both.asm.option.include.paths.2110011793" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
@@ -323,4 +328,5 @@
 	<storageModule moduleId="com.crt.advproject">
 		<boardId>LPCXpresso54114</boardId>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
