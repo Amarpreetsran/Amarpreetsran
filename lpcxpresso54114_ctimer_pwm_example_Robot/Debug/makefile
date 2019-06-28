@@ -37,7 +37,7 @@ all: lpcxpresso54114_ctimer_pwm_example_Robot.axf
 lpcxpresso54114_ctimer_pwm_example_Robot.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs" -Xlinker -Map="lpcxpresso54114_ctimer_pwm_example_Robot.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T lpcxpresso54114_ctimer_pwm_example_Robot_Debug.ld -o "lpcxpresso54114_ctimer_pwm_example_Robot.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs" -Xlinker -Map="lpcxpresso54114_ctimer_pwm_example_Robot.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T lpcxpresso54114_ctimer_pwm_example_Robot_Debug.ld -o "lpcxpresso54114_ctimer_pwm_example_Robot.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

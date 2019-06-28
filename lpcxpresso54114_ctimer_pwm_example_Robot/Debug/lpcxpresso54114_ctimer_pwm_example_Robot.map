@@ -1,6 +1,6 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+/home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
                               ./drivers/fsl_clock.o (POWER_SetVoltageForFreq)
 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr__main.o)
                               ./startup/startup_lpc5411x.o (__main)
@@ -11,7 +11,7 @@ Archive member included to satisfy reference by file (symbol)
 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(__sys_appexit.o)
                               /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr_assert.o) (__sys_appexit)
 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_c.a(memcpy.o)
-                              /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o) (memcpy)
+                              /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o) (memcpy)
 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_c.a(memset.o)
                               ./utilities/fsl_debug_console.o (memset)
 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_c.a(_deferredlazyseek.o)
@@ -148,7 +148,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xd2 ./utilities/fsl_assert.o
  .debug_macro   0x0000000000000000       0x1c ./utilities/fsl_assert.o
  .debug_line    0x0000000000000000      0x31f ./utilities/fsl_assert.o
- .debug_str     0x0000000000000000    0x451e5 ./utilities/fsl_assert.o
+ .debug_str     0x0000000000000000    0x451f3 ./utilities/fsl_assert.o
  .comment       0x0000000000000000       0x80 ./utilities/fsl_assert.o
  .debug_frame   0x0000000000000000       0x30 ./utilities/fsl_assert.o
  .ARM.attributes
@@ -291,7 +291,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x7b ./utilities/fsl_str.o
  .debug_macro   0x0000000000000000       0x5a ./utilities/fsl_str.o
  .debug_line    0x0000000000000000      0x5c9 ./utilities/fsl_str.o
- .debug_str     0x0000000000000000    0x4548f ./utilities/fsl_str.o
+ .debug_str     0x0000000000000000    0x4549d ./utilities/fsl_str.o
  .comment       0x0000000000000000       0x80 ./utilities/fsl_str.o
  .debug_frame   0x0000000000000000       0xb4 ./utilities/fsl_str.o
  .ARM.attributes
@@ -307,7 +307,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x11 ./startup/boot_multicore_slave.o
  .debug_macro   0x0000000000000000      0xa90 ./startup/boot_multicore_slave.o
  .debug_line    0x0000000000000000       0x42 ./startup/boot_multicore_slave.o
- .debug_str     0x0000000000000000     0x2db7 ./startup/boot_multicore_slave.o
+ .debug_str     0x0000000000000000     0x2dc5 ./startup/boot_multicore_slave.o
  .comment       0x0000000000000000       0x80 ./startup/boot_multicore_slave.o
  .ARM.attributes
                 0x0000000000000000       0x39 ./startup/boot_multicore_slave.o
@@ -576,7 +576,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x73 ./drivers/fsl_common.o
  .debug_macro   0x0000000000000000       0x7b ./drivers/fsl_common.o
  .debug_line    0x0000000000000000      0x365 ./drivers/fsl_common.o
- .debug_str     0x0000000000000000    0x45546 ./drivers/fsl_common.o
+ .debug_str     0x0000000000000000    0x45554 ./drivers/fsl_common.o
  .comment       0x0000000000000000       0x80 ./drivers/fsl_common.o
  .debug_frame   0x0000000000000000      0x138 ./drivers/fsl_common.o
  .ARM.attributes
@@ -761,7 +761,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x73 ./drivers/fsl_gpio.o
  .debug_macro   0x0000000000000000       0x7b ./drivers/fsl_gpio.o
  .debug_line    0x0000000000000000      0x2f3 ./drivers/fsl_gpio.o
- .debug_str     0x0000000000000000    0x461b8 ./drivers/fsl_gpio.o
+ .debug_str     0x0000000000000000    0x461c6 ./drivers/fsl_gpio.o
  .comment       0x0000000000000000       0x80 ./drivers/fsl_gpio.o
  .debug_frame   0x0000000000000000       0x84 ./drivers/fsl_gpio.o
  .ARM.attributes
@@ -832,7 +832,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x73 ./drivers/fsl_inputmux.o
  .debug_macro   0x0000000000000000       0x7b ./drivers/fsl_inputmux.o
  .debug_line    0x0000000000000000      0x32f ./drivers/fsl_inputmux.o
- .debug_str     0x0000000000000000    0x46635 ./drivers/fsl_inputmux.o
+ .debug_str     0x0000000000000000    0x46643 ./drivers/fsl_inputmux.o
  .comment       0x0000000000000000       0x80 ./drivers/fsl_inputmux.o
  .debug_frame   0x0000000000000000       0xd0 ./drivers/fsl_inputmux.o
  .ARM.attributes
@@ -892,7 +892,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x7b ./drivers/fsl_power.o
  .debug_macro   0x0000000000000000       0x22 ./drivers/fsl_power.o
  .debug_line    0x0000000000000000      0x2a3 ./drivers/fsl_power.o
- .debug_str     0x0000000000000000    0x44c18 ./drivers/fsl_power.o
+ .debug_str     0x0000000000000000    0x44c26 ./drivers/fsl_power.o
  .comment       0x0000000000000000       0x80 ./drivers/fsl_power.o
  .ARM.attributes
                 0x0000000000000000       0x39 ./drivers/fsl_power.o
@@ -1369,7 +1369,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x73 ./component/lists/generic_list.o
  .debug_macro   0x0000000000000000       0x7b ./component/lists/generic_list.o
  .debug_line    0x0000000000000000      0x452 ./component/lists/generic_list.o
- .debug_str     0x0000000000000000    0x44d68 ./component/lists/generic_list.o
+ .debug_str     0x0000000000000000    0x44d76 ./component/lists/generic_list.o
  .comment       0x0000000000000000       0x80 ./component/lists/generic_list.o
  .debug_frame   0x0000000000000000      0x22c ./component/lists/generic_list.o
  .ARM.attributes
@@ -1542,25 +1542,25 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x73 ./board/pin_mux.o
  .debug_macro   0x0000000000000000       0x7b ./board/pin_mux.o
  .debug_macro   0x0000000000000000       0x3a ./board/pin_mux.o
- .text          0x0000000000000000        0x0 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
- .data          0x0000000000000000        0x0 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
- .bss           0x0000000000000000        0x0 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .text          0x0000000000000000        0x0 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .data          0x0000000000000000        0x0 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .bss           0x0000000000000000        0x0 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .text.DeepSleepReloc
-                0x0000000000000000       0x88 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000000       0x88 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterSleep
-                0x0000000000000000       0x1c /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000000       0x1c /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterDeepSleep
-                0x0000000000000000       0x2c /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000000       0x2c /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterDeepPowerDown
-                0x0000000000000000       0x2c /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000000       0x2c /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .text.POWER_EnterPowerMode
-                0x0000000000000000       0x20 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000000       0x20 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .text.POWER_SetLowPowerVoltageForFreq
-                0x0000000000000000       0x3c /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000000       0x3c /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .text.POWER_GetLibVersion
-                0x0000000000000000        0x6 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000000        0x6 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .bss.relocMem.7060
-                0x0000000000000000      0x400 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000000      0x400 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr__main.o)
  .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr__main.o)
  .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr__main.o)
@@ -1748,7 +1748,7 @@ LOAD ./component/lists/generic_list.o
 LOAD ./board/board.o
 LOAD ./board/clock_config.o
 LOAD ./board/pin_mux.o
-LOAD /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a
+LOAD /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a
 START GROUP
 LOAD /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a
 LOAD /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_c.a
@@ -2009,7 +2009,7 @@ END GROUP
                 0x000000000000173c       0x50 ./board/pin_mux.o
                 0x000000000000173c                BOARD_InitPins
  .text.POWER_SetVoltageForFreq
-                0x000000000000178c       0x8c /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x000000000000178c       0x8c /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
                 0x000000000000178c                POWER_SetVoltageForFreq
  .text.__assertion_failed
                 0x0000000000001818       0x4c /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr_assert.o)
@@ -2549,7 +2549,7 @@ OUTPUT(lpcxpresso54114_ctimer_pwm_example_Robot.axf elf32-littlearm)
  .debug_info    0x000000000000b776      0x934 ./board/board.o
  .debug_info    0x000000000000c0aa      0xc95 ./board/clock_config.o
  .debug_info    0x000000000000cd3f      0xc27 ./board/pin_mux.o
- .debug_info    0x000000000000d966     0x12d6 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .debug_info    0x000000000000d966     0x12d6 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
 
 .debug_abbrev   0x0000000000000000     0x20dc
  .debug_abbrev  0x0000000000000000      0x19a ./utilities/fsl_debug_console.o
@@ -2568,7 +2568,7 @@ OUTPUT(lpcxpresso54114_ctimer_pwm_example_Robot.axf elf32-littlearm)
  .debug_abbrev  0x000000000000192c      0x14f ./board/board.o
  .debug_abbrev  0x0000000000001a7b      0x171 ./board/clock_config.o
  .debug_abbrev  0x0000000000001bec      0x1cb ./board/pin_mux.o
- .debug_abbrev  0x0000000000001db7      0x325 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .debug_abbrev  0x0000000000001db7      0x325 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
 
 .debug_aranges  0x0000000000000000      0x8e0
  .debug_aranges
@@ -2604,7 +2604,7 @@ OUTPUT(lpcxpresso54114_ctimer_pwm_example_Robot.axf elf32-littlearm)
  .debug_aranges
                 0x0000000000000858       0x30 ./board/pin_mux.o
  .debug_aranges
-                0x0000000000000888       0x58 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000888       0x58 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
 
 .debug_ranges   0x0000000000000000      0x800
  .debug_ranges  0x0000000000000000       0x40 ./utilities/fsl_debug_console.o
@@ -2623,7 +2623,7 @@ OUTPUT(lpcxpresso54114_ctimer_pwm_example_Robot.axf elf32-littlearm)
  .debug_ranges  0x0000000000000728       0x18 ./board/board.o
  .debug_ranges  0x0000000000000740       0x28 ./board/clock_config.o
  .debug_ranges  0x0000000000000768       0x20 ./board/pin_mux.o
- .debug_ranges  0x0000000000000788       0x78 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .debug_ranges  0x0000000000000788       0x78 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
 
 .debug_macro    0x0000000000000000     0x17c4
  .debug_macro   0x0000000000000000      0x1b2 ./utilities/fsl_debug_console.o
@@ -2678,42 +2678,42 @@ OUTPUT(lpcxpresso54114_ctimer_pwm_example_Robot.axf elf32-littlearm)
  .debug_line    0x0000000000003bd0      0x371 ./board/board.o
  .debug_line    0x0000000000003f41      0x323 ./board/clock_config.o
  .debug_line    0x0000000000004264      0x300 ./board/pin_mux.o
- .debug_line    0x0000000000004564      0x365 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .debug_line    0x0000000000004564      0x365 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
 
-.debug_str      0x0000000000000000    0x4c92f
- .debug_str     0x0000000000000000    0x46338 ./utilities/fsl_debug_console.o
-                                      0x46409 (size before relaxing)
- .debug_str     0x0000000000046338      0x626 ./startup/startup_lpc5411x.o
-                                       0x340c (size before relaxing)
- .debug_str     0x000000000004695e       0x1f ./source/semihost_hardfault.o
-                                       0x2dc6 (size before relaxing)
- .debug_str     0x000000000004697d     0x1cac ./source/simple_pwm.o
-                                      0x47825 (size before relaxing)
- .debug_str     0x0000000000048629     0x18a9 ./drivers/fsl_clock.o
-                                      0x4797b (size before relaxing)
- .debug_str     0x0000000000049ed2      0x963 ./drivers/fsl_ctimer.o
-                                      0x46a5f (size before relaxing)
- .debug_str     0x000000000004a835      0x307 ./drivers/fsl_flexcomm.o
-                                      0x466bc (size before relaxing)
- .debug_str     0x000000000004ab3c      0x117 ./drivers/fsl_reset.o
-                                      0x45457 (size before relaxing)
- .debug_str     0x000000000004ac53      0xa98 ./drivers/fsl_usart.o
-                                      0x46451 (size before relaxing)
- .debug_str     0x000000000004b6eb      0x13e ./device/system_LPC54114_cm4.o
-                                      0x43afd (size before relaxing)
- .debug_str     0x000000000004b829      0x324 ./component/uart/usart_adapter.o
-                                      0x45fab (size before relaxing)
- .debug_str     0x000000000004bb4d      0x36c ./component/serial_manager/serial_manager.o
-                                      0x45311 (size before relaxing)
- .debug_str     0x000000000004beb9       0xfc ./component/serial_manager/serial_port_uart.o
-                                      0x453be (size before relaxing)
- .debug_str     0x000000000004bfb5       0x50 ./board/board.o
-                                      0x472ce (size before relaxing)
- .debug_str     0x000000000004c005       0x46 ./board/clock_config.o
-                                      0x45c26 (size before relaxing)
- .debug_str     0x000000000004c04b      0x3c7 ./board/pin_mux.o
-                                      0x459bb (size before relaxing)
- .debug_str     0x000000000004c412      0x51d /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+.debug_str      0x0000000000000000    0x4c93d
+ .debug_str     0x0000000000000000    0x46346 ./utilities/fsl_debug_console.o
+                                      0x46417 (size before relaxing)
+ .debug_str     0x0000000000046346      0x626 ./startup/startup_lpc5411x.o
+                                       0x341a (size before relaxing)
+ .debug_str     0x000000000004696c       0x1f ./source/semihost_hardfault.o
+                                       0x2dd4 (size before relaxing)
+ .debug_str     0x000000000004698b     0x1cac ./source/simple_pwm.o
+                                      0x47833 (size before relaxing)
+ .debug_str     0x0000000000048637     0x18a9 ./drivers/fsl_clock.o
+                                      0x47989 (size before relaxing)
+ .debug_str     0x0000000000049ee0      0x963 ./drivers/fsl_ctimer.o
+                                      0x46a6d (size before relaxing)
+ .debug_str     0x000000000004a843      0x307 ./drivers/fsl_flexcomm.o
+                                      0x466ca (size before relaxing)
+ .debug_str     0x000000000004ab4a      0x117 ./drivers/fsl_reset.o
+                                      0x45465 (size before relaxing)
+ .debug_str     0x000000000004ac61      0xa98 ./drivers/fsl_usart.o
+                                      0x4645f (size before relaxing)
+ .debug_str     0x000000000004b6f9      0x13e ./device/system_LPC54114_cm4.o
+                                      0x43b0b (size before relaxing)
+ .debug_str     0x000000000004b837      0x324 ./component/uart/usart_adapter.o
+                                      0x45fb9 (size before relaxing)
+ .debug_str     0x000000000004bb5b      0x36c ./component/serial_manager/serial_manager.o
+                                      0x4531f (size before relaxing)
+ .debug_str     0x000000000004bec7       0xfc ./component/serial_manager/serial_port_uart.o
+                                      0x453cc (size before relaxing)
+ .debug_str     0x000000000004bfc3       0x50 ./board/board.o
+                                      0x472dc (size before relaxing)
+ .debug_str     0x000000000004c013       0x46 ./board/clock_config.o
+                                      0x45c34 (size before relaxing)
+ .debug_str     0x000000000004c059      0x3c7 ./board/pin_mux.o
+                                      0x459c9 (size before relaxing)
+ .debug_str     0x000000000004c420      0x51d /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
                                         0xbcd (size before relaxing)
 
 .comment        0x0000000000000000       0xfe
@@ -2734,7 +2734,7 @@ OUTPUT(lpcxpresso54114_ctimer_pwm_example_Robot.axf elf32-littlearm)
  .comment       0x000000000000007f       0x80 ./board/board.o
  .comment       0x000000000000007f       0x80 ./board/clock_config.o
  .comment       0x000000000000007f       0x80 ./board/pin_mux.o
- .comment       0x000000000000007f       0x7f /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .comment       0x000000000000007f       0x7f /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
                                          0x80 (size before relaxing)
  .comment       0x00000000000000fe       0x80 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr__main.o)
  .comment       0x00000000000000fe       0x80 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr_assert.o)
@@ -2796,7 +2796,7 @@ OUTPUT(lpcxpresso54114_ctimer_pwm_example_Robot.axf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000357       0x39 ./board/pin_mux.o
  .ARM.attributes
-                0x0000000000000390       0x39 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+                0x0000000000000390       0x39 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
  .ARM.attributes
                 0x00000000000003c9       0x39 /usr/local/mcuxpressoide-10.3.1_2233/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libcr_semihost_nf.a(_cr__main.o)
  .ARM.attributes
@@ -2885,7 +2885,7 @@ OUTPUT(lpcxpresso54114_ctimer_pwm_example_Robot.axf elf32-littlearm)
  .debug_frame   0x0000000000001c64       0x58 ./board/board.o
  .debug_frame   0x0000000000001cbc       0x8c ./board/clock_config.o
  .debug_frame   0x0000000000001d48       0x84 ./board/pin_mux.o
- .debug_frame   0x0000000000001dcc       0xb8 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .debug_frame   0x0000000000001dcc       0xb8 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
 
 .debug_loc      0x0000000000000000      0x346
- .debug_loc     0x0000000000000000      0x346 /home/himanshu/Documents/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)
+ .debug_loc     0x0000000000000000      0x346 /home/sran/amarpreetsran/Amarpreetsran/lpcxpresso54114_ctimer_pwm_example_Robot/libs/libpower_cm4_hardabi.a(fsl_power_lib.o)

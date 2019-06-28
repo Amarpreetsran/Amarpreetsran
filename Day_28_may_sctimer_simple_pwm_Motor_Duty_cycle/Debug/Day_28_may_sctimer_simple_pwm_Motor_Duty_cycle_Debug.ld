@@ -6,7 +6,7 @@
  * Generated linker script file for LPC54114J256
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v10.3.1 [Build 2233] [2019-02-20] on 24-May-2019 7:36:42 PM
+ * MCUXpresso IDE v10.3.1 [Build 2233] [2019-02-20] on 6-Jun-2019 11:30:43 PM
  */
 
 INCLUDE "Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle_Debug_library.ld"
@@ -213,8 +213,30 @@ SECTIONS
          . = ALIGN(4) ;
         _end_noinit = .;
     } > SRAM1
-    PROVIDE(_pvHeapStart = DEFINED(__user_heap_base) ? __user_heap_base : .);
-    PROVIDE(_vStackTop = DEFINED(__user_stack_top) ? __user_stack_top : __top_SRAM1 - 0);
+
+    /* Reserve and place Heap within memory map */
+    _HeapSize = 0x1000;
+    .heap :  ALIGN(4)
+    {
+        _pvHeapStart = .;
+        . += _HeapSize;
+        . = ALIGN(4);
+        _pvHeapLimit = .;
+    } > SRAM1
+
+     _StackSize = 0x1000;
+     /* Reserve space in memory for Stack */
+    .heap2stackfill  :
+    {
+        . += _StackSize;
+    } > SRAM1
+    /* Locate actual Stack in memory map */
+    .stack ORIGIN(SRAM1) + LENGTH(SRAM1) - _StackSize - 0:  ALIGN(4)
+    {
+        _vStackBase = .;
+        . = ALIGN(4);
+        _vStackTop = . + _StackSize;
+    } > SRAM1
 
     /* ## Create checksum value (used in startup) ## */
     PROVIDE(__valid_user_code_checksum = 0 - 

@@ -37,7 +37,7 @@ all: Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle.axf
 Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/home/himanshu/Documents/Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle/libs" -Xlinker -Map="Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle_Debug.ld -o "Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/home/sran/amarpreetsran/Amarpreetsran/Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle/libs" -Xlinker -Map="Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle_Debug.ld -o "Day_28_may_sctimer_simple_pwm_Motor_Duty_cycle.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
